@@ -86,7 +86,6 @@ public abstract class ServerWorldMixin {
      */
     @Overwrite public List<ScheduledTick> getScheduledTicks(BlockBox box, boolean remove) {
         List<ScheduledTick> result = null;
-
         int minChunkX = box.minX >> 4;
         int maxChunkX = (box.maxX - 1) >> 4;
         int minChunkZ = box.minZ >> 4;
