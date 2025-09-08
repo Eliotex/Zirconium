@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "chromium",
-  "version": "1.0.0",
-  "name": "Chromium",
+  "id": "zirconium",
+  "version": "1.0.2",
+  "name": "Zirconium",
   "description": "An optimized block updates handler, which drastically improves chunk saving",
   "authors": [
     "Eliotex"
@@ -15,7 +15,7 @@
   "icon": "assets/modid/icon.png",
   "environment": "*",
   "mixins": [
-    "chromium.mixins.json"
+    "zirconium.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.19",
